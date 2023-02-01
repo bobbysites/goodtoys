@@ -7167,7 +7167,9 @@ function highlightPhrase(string, phrase, wrap) {
 
                 setTimeout(function () {
                     var wdh = $(".banners").width();
+                    var height = $(".banners").height();
                     $(".banners").css('width', wdh+'px');
+                    $(".banners").css('height', height+100+'px');
                     $(".banners > div").slick({
                         slidesToShow: 1,
                         slidesToScroll: 1,
@@ -7177,7 +7179,7 @@ function highlightPhrase(string, phrase, wrap) {
                     });
                     $(".banners > div a").removeClass('hide');
                     $(".banners > div img").removeClass('hide');
-                },2000);
+                }, 0);
 
             $(".owl2 .product-list").owlCarousel({
                 loop:true,
