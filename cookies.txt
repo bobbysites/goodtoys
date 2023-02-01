@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+goodtoys.com.ua	TRUE	/	FALSE	1999999999	landing	%2Fua%2F
+goodtoys.com.ua	TRUE	/	FALSE	1999999999	SameSite	None
+goodtoys.com.ua	TRUE	/	FALSE	1999999999	PHPSESSID	6086458ff4b413e6810c078003027fab
+
